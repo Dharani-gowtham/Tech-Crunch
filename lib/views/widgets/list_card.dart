@@ -38,10 +38,11 @@ class ListCard extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.only(top: 5),
                     child: Text(
-                        'UPI goes global: India, Singapore start instant fund transfer; PM Modi hails new era in jsdn filhjbijbsd',
+                        'UPI goes global: India, Singapore start instant fund transfer; PM Modiihsbdf iuasdgf iuasgdf hails new era in jsdn filhjbijbsd',
                       style: GoogleFonts.poppins(
                         fontSize: 14,
                       ),
+                      // textAlign: TextAlign.justify,
                       maxLines: 3,
                       overflow: TextOverflow.ellipsis,
                     ),
