@@ -147,8 +147,12 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         currentIndex: _currentIndex,
-        fixedColor: Colors.blue,
+        selectedItemColor: Colors.blue,
+        unselectedItemColor: Colors.grey,
+        showUnselectedLabels: false,
+        showSelectedLabels: false,
         items: [
           BottomNavigationBarItem(
               icon: Icon(Icons.home),
@@ -156,16 +160,16 @@ class _HomePageState extends State<HomePage> {
             // backgroundColor: Colors.blue
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Icon(Icons.search),
             label: 'home',
             // backgroundColor: Colors.green
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Icon(Icons.book),
             label: 'home',
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.home),
+              icon: Icon(Icons.person),
             label: 'home',
           ),
         ],
