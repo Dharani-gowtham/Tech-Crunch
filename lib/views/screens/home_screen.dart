@@ -91,15 +91,12 @@ class _HomePageState extends State<HomePage> {
               child: Wrap(
                 alignment: WrapAlignment.spaceBetween,
                 runSpacing: 15,
-                children: [
-                  CategoryCard(),
-                  CategoryCard(),
-                  CategoryCard(),
-                  CategoryCard(),
-                  CategoryCard(),
-                  CategoryCard(),
-                  CategoryCard(),
-                  CategoryCard(),
+                children: const [
+                  CategoryCard(title: 'Title1', thumbnailUrl: 'https://rb.gy/fsoogv', content: 'test',),
+                  CategoryCard(title: 'Title1', thumbnailUrl: 'https://rb.gy/fsoogv', content: 'test',),
+                  CategoryCard(title: 'Title1', thumbnailUrl: 'https://rb.gy/fsoogv', content: 'test',),
+                  CategoryCard(title: 'Title1', thumbnailUrl: 'https://rb.gy/fsoogv', content: 'test',),
+                  CategoryCard(title: 'Title1', thumbnailUrl: 'https://rb.gy/fsoogv', content: 'test',),
                 ],
               ),
             ),
